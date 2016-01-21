@@ -1,5 +1,5 @@
 import numpy as np
-
+#this is ali test
 def softmax(x):
     xt = np.exp(x - np.max(x))
     return xt / np.sum(xt)
